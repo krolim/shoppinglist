@@ -1,0 +1,10 @@
+---
+applications:
+- name: shoppinglist
+  buildpack: go_buildpack
+  memory: 512M
+  instances: 1
+  host: yjayaraman-go
+  env:
+   #PORT: 3000
+   CF_STARTUP_TIMEOUT: 10
